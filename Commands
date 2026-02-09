@@ -1,0 +1,10 @@
+cd "/c/Users/vish2/Documents/N8n WorkFlow/ResumeAutomate-main/ResumeAutomate-main"
+.venv/Scripts/activate
+python -m uvicorn main:app --host 127.0.0.1 --port 8000
+
+git status
+git add .
+git commit -m "Update project"
+git push origin main
+
+
